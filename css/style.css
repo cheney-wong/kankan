@@ -1,5 +1,5 @@
 body{
-	background: #FBFBFB;
+	background: #FFFFFF;
 }
 *{
 	margin:0;
@@ -34,8 +34,8 @@ input,img{
 /*搜索区域开始*/
 #header .search{
 	position: absolute;
-	top:19px;
 	left:311px;
+	top:19px;
 	width:448px;
 	height:39px;
 }
@@ -72,6 +72,52 @@ input,img{
 	cursor:pointer;
 }
 /*搜索按钮结束*/
+/*搜索文本框点击样式开始*/
+.blue{
+	position: absolute;
+	width:358px;
+	height:39px;
+	text-indent:10px; 
+	border:1px solid #24BAF1;
 
+}
+/*搜索文本框点击样式结束*/
+
+#header .search_tag{
+	position:absolute;
+	left:310px;
+	top:64px;
+}
+#header .search_tag a{
+	color:#666666;
+	font-family:"宋体","Arial Narrow";
+	font-size:12px;
+}
+#header .search_tag a:hover{
+	text-decoration:underline;
+}
+#header .search_tag a.link{
+	color:#999999;
+}
+#header .search_tag a.link2{
+	padding-left:12px;
+
+}
 /*搜索区域结束*/
+/*用户内容区域开始*/
+#header .userarea{
+	position: absolute;
+	top:17px;
+	right:0;
+	width:348px;
+	height:50px;
+	border:1px solid blue;
+}
+/*从右到左区域6开始*/
+#header .userarea .user_u6 .download-icon{
+	background:url(../images/index_sp.png) 0 0 no-repeat;
+}
+/*从右到左区域6结束*/
+/*用户内容区域结束*/
 
+ 
