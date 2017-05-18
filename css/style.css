@@ -114,10 +114,162 @@ input,img{
 	border:1px solid blue;
 }
 /*从右到左区域6开始*/
-#header .userarea .user_u6 .download-icon{
-	background:url(../images/index_sp.png) 0 0 no-repeat;
+#header .userarea .user_u1{
+	position: absolute;
+	right:275px;
+	width:68px;
+	height:50px;
+	border:1px solid red;
 }
+#header .userarea .user_u1 .user-icon{
+	position: absolute;
+	width:26px;
+	height:26px;
+	background:url(../images/index_sp.png) -161px -43px no-repeat;
+	border:1px solid red;
+}
+#header .userarea .user_u1 div{
+	width:68px;
+	border:1px solid red;
+}
+#header .userarea .user_u2{
+	position: absolute;
+	right:198px;
+	width:56px;
+	height:50px;
+	border:1px solid red;
+}
+#header .userarea .user_u2 .member-icon{
+	position: absolute;
+	width:26px;
+	height:26px;
+	background:url(../images/index_sp.png) -188px -43px no-repeat;
+	border:1px solid red;
+}
+#header .userarea .user_u2 div{
+	width:56px;
+	border:1px solid red;
+}
+#header .userarea .user_u3{
+	position: absolute;
+	right:152px;
+	width:28px;
+	height:50px;
+	border:1px solid red;
+}
+#header .userarea .user_u3 .favorite-icon{
+	position: absolute;
+	width:26px;
+	height:26px;
+	background:url(../images/index_sp.png) -215px -43px no-repeat;
+	border:1px solid red;
+}
+#header .userarea .user_u3 div{
+	width:28px;
+	border:1px solid red;
+}
+#header .userarea .user_u4{
+	position: absolute;
+	right:106px;
+	width:28px;
+	height:50px;
+	border:1px solid red;
+}
+#header .userarea .user_u4 .record-icon{
+	position: absolute;
+	width:26px;
+	height:26px;
+	background:url(../images/index_sp.png) -242px -43px no-repeat;
+	border:1px solid red;
+}
+#header .userarea .user_u4 div{
+	width:28px;
+	border:1px solid red;
+}
+#header .userarea .user_u5{
+	position: absolute;
+	right:46px;
+	width:42px;
+	height:50px;
+	border:1px solid red;
+}
+#header .userarea .user_u5 .client-icon{
+	position: absolute;
+	width:26px;
+	height:26px;
+	background:url(../images/index_sp.png) -176px -93px no-repeat;
+	border:1px solid red;
+}
+#header .userarea .user_u5 div{
+	width:42px;
+	border:1px solid red;
+}
+#header .userarea .user_u6{
+	position: absolute;
+	right:0;
+	width:28px;
+	height:50px;
+	border:1px solid red;
+}
+#header .userarea .user_u6 .download-icon{
+	position: absolute;
+	width:26px;
+	height:26px;
+	background:url(../images/index_sp.png) -269px -43px no-repeat;
+	border:1px solid red;
+}
+#header .userarea .user_u6 div{
+	width:26px;
+	border:1px solid red;
+}
+#header .userarea div div{
+	position: absolute;
+	bottom:0;
+	font:12px/1.5em "Microsoft Yahei";
+	border:1px solid red;
+	text-align:center;
+}
+
+
+
 /*从右到左区域6结束*/
 /*用户内容区域结束*/
+/*导航栏开始*/
+#nav{
+	width:100%;
+	height:50px;
+	background:#FFFFFF;
+}
+#nav .nav_box{
+	width:1180px;
+	height:50px;
+	margin:0 auto;
+}
+#nav .nav_box ul.navarea_l li{
+	float:left;
+	line-height: 50px;
+}
+#nav .nav_box ul.navarea_l li.navarea_one a{
+	padding-left: 0;
+}
+#nav .nav_box ul.navarea_l li a{
+	font-size: 14px;
+	color: #333;
+	display: block;
+	float: left;
+	padding: 0 11px 0 11px;
+}
+#nav .nav_box ul.navarea_l li.navarea_line a{
+	font-size: 14px;
+	color: #C5C6BE;
+	display: block;
+	float: left;
+	padding: 0 11px 0 11px;
+
+}
+#nav .nav_box ul.navarea_l li a:hover{
+	color: #82BBEF;
+}
+/*导航栏结束*/
 
  
