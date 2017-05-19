@@ -259,7 +259,7 @@ input,img{
 	float: left;
 	padding: 0 11px 0 11px;
 }
-#nav .nav_box ul.navarea_l li.navarea_line a{
+#nav .nav_box ul.navarea_l li.navarea_line{
 	font-size: 14px;
 	color: #C5C6BE;
 	display: block;
@@ -271,5 +271,53 @@ input,img{
 	color: #82BBEF;
 }
 /*导航栏结束*/
+
+/*轮换版开始*/
+#focus_background{
+	width: 100%;
+	height: 520px;
+	background: url(../images/1.jpg) no-repeat #000718;
+}
+/*轮换版中间大盒子开始*/
+#focus_background #focus_box{
+	position: relative;
+	width: 1263px;
+	height: 520px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+/*轮换版小焦点图开始*/
+#focus_box ul.smal_pic{
+	position: absolute;
+	top: 431px;
+	left: 0px;
+	height: 71px;
+	border: 1px solid red;
+}
+#focus_box ul.smal_pic li{
+	float: left;
+	width: 140px;
+	height: 71px;
+	margin-left: 6px;
+	border: 1px solid #24BAF1;
+}
+#focus_box ul.smal_pic li .hover{
+	border: 2px solid #24BAF1;
+	margin-right: -2px;
+	margin-top: -1px;
+}
+#focus_box ul.smal_pic li a{
+	display: block;
+	position: relative;
+}
+#focus_box ul.smal_pic li a img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+/*轮换版小焦点图结束*/
+/*轮换版中间大盒子结束*/
+
+/*轮换版结束*/
 
  
