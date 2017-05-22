@@ -1,4 +1,4 @@
-body{
+﻿body{
 	background: #FFFFFF;
 }
 *{
@@ -265,7 +265,6 @@ input,img{
 	display: block;
 	float: left;
 	padding: 0 11px 0 11px;
-
 }
 #nav .nav_box ul.navarea_l li a:hover{
 	color: #82BBEF;
@@ -284,24 +283,15 @@ input,img{
 	width: 1263px;
 	height: 520px;
 	margin: 0 auto;
-	border: 1px solid red;
 }
 /*轮换版小焦点图开始*/
-#focus_box ul.smal_pic{
-	position: absolute;
-	top: 431px;
-	left: 0px;
-	height: 71px;
-	border: 1px solid red;
-}
 #focus_box ul.smal_pic li{
 	float: left;
 	width: 140px;
 	height: 71px;
 	margin-left: 6px;
-	border: 1px solid #24BAF1;
 }
-#focus_box ul.smal_pic li .hover{
+#focus_box ul.smal_pic li.hover{
 	border: 2px solid #24BAF1;
 	margin-right: -2px;
 	margin-top: -1px;
@@ -317,7 +307,54 @@ input,img{
 }
 /*轮换版小焦点图结束*/
 /*轮换版中间大盒子结束*/
-
 /*轮换版结束*/
 
+/*今日热播开始*/
+.hot_box{
+	width:1180px;
+	height:484px;
+	border:1px solid red;
+	margin: 0 auto;
+}
+/*今日看点标题开始*/
+.hot_box .hot_title{
+	position:relative;
+	left:0px;
+	top:38px;
+	width:1180px;
+	height:28px;
+	border:1px solid blue;
+}
+.hot_box .hot_title .box_tt{
+	float:left;
+	color:#333333;
+	font: 26px/26px 'Microsoft Yahei';
+	margin-right:28px;
+}
+.hot_box .hot_title .box_tab{
+	float:left;
+	top:7px;
+	color:#EDE7E3;
+}
+.hot_box .hot_title .box_tab a{
+	color:#333333;
+	display:inline-block;
+	margin-left:15px;
+	margin-right:15px;
+	font: 12px/1 Arial, "hiragino sans gb","microsoft yahei","simsun", Helvetica, sans-serif;
+}
+.hot_box .hot_title .box_tab a.style.hover{
+	color:#21B7EF;
+}
+/*今日看点标题结束*/
+/*左边盒子开始*/
+.hot_box .hot_left{
+	float: left;
+	position: relative;
+	left:0px;
+	width:485px;
+
+}
+/*左边盒子结束*/
+/*今日热播结束*/
  

@@ -1,4 +1,4 @@
-$(function(){
+﻿$(function(){
 	var timer = '';//定时器
 	var i = 0;
 	// input表单获得焦点
@@ -12,6 +12,23 @@ $(function(){
 	})
 
 	//轮换版
+	$('.smal_pic li').mouseover(function(){
+		clearInterval(timer);
+		var backImg = $(this).find('img').attr('backImg');
+		var backColor = $(this).find('img').attr('backColor');
+		var background = 'url(' + backImg + ') ' + 'no-repeat center ' + backColor;
+		$('#focus_background').css({background : background});
+		$(this).addClass('hover').siblings().removeClass('hover');
+		i = $(this).index();
+	})
+
+	//移出小图片开启定时器
+	$('.smal_pic li').mouseout(function(){
+		timer = setInterval(move,1000);
+	})
+
+	timer = setInterval(move,1000);
+
 	function move(){
 		if(i>11) {
 			i = 0;
