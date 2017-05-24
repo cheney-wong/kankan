@@ -311,50 +311,118 @@ input,img{
 
 /*今日热播开始*/
 .hot_box{
-	width:1180px;
-	height:484px;
+	width:1200px;
+	height:508px;
 	border:1px solid red;
-	margin: 0 auto;
+	margin:0 auto;
 }
-/*今日看点标题开始*/
-.hot_box .hot_title{
-	position:relative;
-	left:0px;
-	top:38px;
-	width:1180px;
-	height:28px;
-	border:1px solid blue;
-}
-.hot_box .hot_title .box_tt{
-	float:left;
-	color:#333333;
-	font: 26px/26px 'Microsoft Yahei';
-	margin-right:28px;
-}
-.hot_box .hot_title .box_tab{
-	float:left;
-	top:7px;
-	color:#EDE7E3;
-}
-.hot_box .hot_title .box_tab a{
-	color:#333333;
-	display:inline-block;
-	margin-left:15px;
-	margin-right:15px;
-	font: 12px/1 Arial, "hiragino sans gb","microsoft yahei","simsun", Helvetica, sans-serif;
-}
-.hot_box .hot_title .box_tab a.style.hover{
-	color:#21B7EF;
-}
-/*今日看点标题结束*/
 /*左边盒子开始*/
 .hot_box .hot_left{
-	float: left;
-	position: relative;
+	float:left;
+	position:relative;
 	left:0px;
-	width:485px;
-
+	width:930px;
+	height:460px;
+	margin-top:25px;
+	border:1px solid blue;
+}
+/*左边盒子公共样式*/
+.hot_l_title{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:915px;
+	height:28px;
+}
+.hot_l_title h2.htitle{
+	float:left;
+	width:105px;
+	height:24px;
+	background:url(../images/title_0910.png) 0 0 no-repeat;
+}
+.hot_l_title .tabbox{
+	float:left;
+	line-height: 28px;
+	margin-left: 75px;
+	color:#DED8DE;
+}
+.hot_l_title .tabbox a{
+	color:#545454;
+	margin-left: 2px;
+	margin-right: 9px;
+	font-family: "Microsoft Yahei";
+	font-weight: 400;
+	font-size:16px;
+}
+/*标题公共鼠标移入样式*/
+.hot_style{
+	border-bottom: 2px solid #0099FF;
+}
+/*标题公共鼠标移入样式结束*/
+/*图片公共鼠标移入样式*/
+.apic_hover{
+	border-bottom: 2px solid #249FF1;
+	margin-bottom:-2px;
+}
+/*图片公共鼠标移入样式结束*/
+.hot_left ul.public{
+	position:absolute;
+	height:460px;
+	width:950px;
+	top:30px;
+	left:-35px;
+	border:1px solid black;
+}
+ul.public li{
+	float:left;
+	width:155px;
+	height:127px;
+	padding-left: 35px;
+	padding-top:12px;
+	overflow:hidden;
+}
+ul.public li a.pic{
+	display:block;
+	position:relative;
+	width:155px;
+	height:100px;
+	font-size:12px;
+}
+ul.public li a.pic img{
+	position: absolute;
+	top:0;
+	left:0;
+}
+ul.public li a.pic span.masktxt{
+	position:absolute;
+	left:0px;
+	top:66px;
+	display: block;
+	width:152px;
+	height:34px;
+	line-height: 48px;
+	padding-right: 3px;
+	color:#fff;
+	text-align: right;
+	/*background:url(../images/png24.png) 0 -50px repeat-x;*/
+}
+ul.public li a.pic_title{
+	display:block;
+	bottom: 0px;
+	height: 16px;
+	width:155px;
+	margin-top:10px;
+	font-size:14px;
+	color:#333333;
+}
+ul.public li .pic_title:hover{
+	color:#249FF1;
+}
+ul.public li a.pic_title span{
+	font-size: 14px;
+	color:#999999;
 }
 /*左边盒子结束*/
+
 /*今日热播结束*/
  

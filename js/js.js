@@ -42,3 +42,10 @@
 	}
 
 })
+
+// 图片hover公共效果
+$('a.pic').hover(function(){
+	$(this).addClass('apic_hover');
+},function(){
+	$(this).removeClass('apic_hover');
+})
