@@ -364,6 +364,10 @@ input,img{
 	border-bottom: 2px solid #249FF1;
 	margin-bottom:-2px;
 }
+/*a.pic:hover{
+	border-bottom: 2px solid #249FF1;
+	margin-bottom: -2px;
+}*/
 /*图片公共鼠标移入样式结束*/
 .hot_left ul.public{
 	position:absolute;
