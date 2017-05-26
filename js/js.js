@@ -40,13 +40,25 @@
 		$('.smal_pic li').eq(i).addClass('hover').siblings().removeClass('hover');
 		i++;
 	}
-	
+
 	// 图片hover公共效果
 	$('a.pic').hover(function(){
 		$(this).addClass('apic_hover');
 	}, function(){
 		$(this).removeClass('apic_hover');
 	})
+
+	// 今日热播左边的tab切换效果
+	$('.hot_box .tabbox a').mouseover(function(){
+		$(this).addClass('hot_style').siblings('a').removeClass('hot_style');
+		var cur = $(this).index();
+		$('.hot_box .hot_left ul').eq(cur).show().siblings('ul').hide();
+	})
+
+
+
+
+
 
 })
 

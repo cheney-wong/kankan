@@ -323,7 +323,7 @@ input,img{
 	left:0px;
 	width:930px;
 	height:460px;
-	margin-top:25px;
+	margin-top:20px;
 	border:1px solid blue;
 }
 /*左边盒子公共样式*/
@@ -339,6 +339,7 @@ input,img{
 	width:105px;
 	height:24px;
 	background:url(../images/title_0910.png) 0 0 no-repeat;
+	overflow:hidden;
 }
 .hot_l_title .tabbox{
 	float:left;
@@ -364,10 +365,6 @@ input,img{
 	border-bottom: 2px solid #249FF1;
 	margin-bottom:-2px;
 }
-/*a.pic:hover{
-	border-bottom: 2px solid #249FF1;
-	margin-bottom: -2px;
-}*/
 /*图片公共鼠标移入样式结束*/
 .hot_left ul.public{
 	position:absolute;
@@ -375,7 +372,7 @@ input,img{
 	width:950px;
 	top:30px;
 	left:-35px;
-	border:1px solid black;
+	display: none;
 }
 ul.public li{
 	float:left;
@@ -427,6 +424,46 @@ ul.public li a.pic_title span{
 	color:#999999;
 }
 /*左边盒子结束*/
-
+/*右边开始*/
+.hot_box .hot_right{
+	position:relative;
+	float:right;
+	width:240px;
+	height:460px;
+	margin-top: 30px;
+	border:1px solid blue;
+}
+.hot_box .hot_right .hot_r_title{
+	width:240px;
+	height:28px;
+	font-size: 16px;
+	color:#999999;
+	/*border:1px solid red;*/
+}
+.hot_box .hot_right .hot_r_title .tab_right{
+	float:left;
+}
+.hot_box .hot_right .hot_r_title .tab_right a.tab{
+	color:#545454;
+	font-size: 16px;
+	line-height: 28px;
+	font-family: "Microsoft Yahei";
+	margin-right:8px;
+	margin-left:3px;
+}
+.hot_box .hot_right .hot_r_title a.more{
+	float:right;
+	color:#999999;
+	padding-right:10px;
+	background:url(../images/spite_0728.png) 47px 432px -no-repeat;
+	border:1px solid red;
+	font-size: 12px;
+	margin-top: 7px;
+}
+.hot_box .hot_right .hot_r_title .more:hover{
+	text-decoration: underline;
+	color:#249FF1;
+}
+/*右边结束*/
 /*今日热播结束*/
  
