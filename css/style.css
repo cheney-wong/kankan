@@ -464,6 +464,54 @@ ul.public li a.pic_title span{
 	text-decoration: underline;
 	color:#249FF1;
 }
+/*标题结束*/
+/*右边图片区域开始*/
+.hot_box .hot_right ul{
+	position:relative;
+	width:255px;
+	height:460px;
+	left:-10px;
+	display:none;
+}
+.hot_box .hot_right ul li{
+	float:left;
+	width:115px;
+	height:130px;
+	padding-top:9px;
+	padding-left:10px;
+	overflow:hidden;
+}
+.hot_box .hot_right ul li a.pic{
+	position:relative;
+	display:block;
+	width:115px;
+	height:79px;
+}
+.hot_box .hot_right ul li a.pic img{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.hot_box .hot_right ul li a.title{
+	display:block;
+	height:16px;
+	color:#333333;
+	font-size:14px;
+	margin-top:10px;
+	margin-bottom: 7px;
+}
+.hot_box .hot_right ul li .title:hover{
+	color:#249FF1;
+}
+.hot_box .hot_right ul li P{
+	color:#999999;
+	font-size: 12px;
+}
+/*右边title js切换效果*/
+.a_r_tab{
+	border-bottom: 2px solid #0099FF;
+}
+/*右边图片区域结束*/
 /*右边结束*/
 /*今日热播结束*/
  

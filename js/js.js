@@ -55,7 +55,12 @@
 		$('.hot_box .hot_left ul').eq(cur).show().siblings('ul').hide();
 	})
 
-
+	//今日热播右边切换效果
+	$('.hot_right a.tab').mouseover(function(){
+		$(this).addClass('a_r_tab').siblings('a').removeClass('a_r_tab');
+		var cur = $(this).index();
+		$('.hot_right ul').eq(cur).show().siblings('ul').hide();
+	})
 
 
 
